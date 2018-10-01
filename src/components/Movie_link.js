@@ -5,7 +5,9 @@ class MovieLink extends Component{
 
 render(){
     return(
-        <p>Movie Link</p>
+        <div className="movie_container">
+            <h3>{this.props.title} </h3> <p>{this.props.link}</p>
+        </div>
     )
 }
 

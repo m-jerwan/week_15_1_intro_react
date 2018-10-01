@@ -1,12 +1,28 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import MovieLink from './Movie_link';
 
-class ListingList extends Component{
+class ListingList extends Component {
 
 
-    render(){
-        return(
-            <MovieLink />
+    render() {
+
+        const movieNodes = this.props.data.map((movie, index) => {
+            return (
+                <MovieLink
+                    title={movie.title}
+                    link={movie.link}
+                    key={index}
+                />
+            )
+        })
+        console.log(movieNodes)
+
+        return (
+            <div>
+                <h4>Uk Opening this week:</h4>
+                {movieNodes}
+                <h6>See more opening this week >></h6>
+            </div>
         )
     }
 }

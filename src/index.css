@@ -1,5 +1,19 @@
 body {
-  margin: 0;
+  margin: 3rem;
   padding: 0;
   font-family: sans-serif;
+}
+
+
+h3,
+p {
+  display: inline;
+}
+
+p{
+  text-align: right;
+}
+
+.movie_container{
+  width: 15rem;
 }
