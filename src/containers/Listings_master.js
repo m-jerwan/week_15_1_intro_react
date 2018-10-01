@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
+import ListingList from '../components/Listings_list';
 
-class Listings_master extends Component{
+class ListingsMaster extends Component{
 
 render(){
     return(
-        <div>Listings master</div>
+        <ListingList />
     )
 }
 
 }
 
-export default Listings_master;
+export default ListingsMaster;
