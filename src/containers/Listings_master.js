@@ -21,7 +21,7 @@ class ListingsMaster extends Component {
 
     render() {
         return (
-            <div>
+            <div className="listings_master">
             <ListingList data= {this.state.data}/>
             <button>Get showtimes >></button>
             </div>

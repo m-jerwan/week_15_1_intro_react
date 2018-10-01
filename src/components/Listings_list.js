@@ -19,7 +19,7 @@ class ListingList extends Component {
 
         return (
             <div>
-                <h4>Uk Opening this week:</h4>
+                <h4>Uk Openings this week:</h4>
                 {movieNodes}
                 <h6>See more opening this week >></h6>
             </div>
